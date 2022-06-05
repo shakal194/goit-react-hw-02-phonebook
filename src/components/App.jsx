@@ -5,7 +5,6 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import ContactForm from './contactForm';
 import ContactList from './contactList';
 import FilterContact from './filter';
-import { render } from '@testing-library/react';
 
 class App extends Component {
   state = {
